@@ -22,4 +22,13 @@ int main()
         cout << "Masukan nama ke"<< 1+1 << " = ";
         cin >> nama[i];
     }
+    
+    cout << endl;
+    cout << "Menampilkan Array Nama" << endl;
+    cout << endl;
+    
+    for (int i=0; 14; i++)
+    { 
+        cout << "Nama ke " << i + 1 << " = " << nama [i] << endl;
+    }
 }
