@@ -13,3 +13,30 @@ struct Mahasiswa
     string nim;
     DetailAlamat alamat;
 };
+
+int main()
+{
+    // Membuat object struct dalam array
+    Mahasiswa mhs [2];
+    for (int i=0; i < 2; i++)
+    {
+        cout << "Mahasiswa ke-" << 1 + 1 << endl;
+        cout << "Masukan nim = ";
+        cin >> mhs[i].nim;
+        cin.ignore();
+        cout << "Masukan nama= ";
+        getline(cin, mhs[i].nama);
+        cout << "Masukan kota = ";
+        cin >> mhs[i].alamat.kota;
+        cout << "Masukan provinsi = ";
+        cin >> mhs[i].alamat.provinsi;
+        cin.ignore();
+    }
+    cout << endl;
+    cout << "Menampilkan Data" << endl;
+    cout << endl;
+    for (int i = 0; i < 2; i++)
+    {
+       
+    }
+}
