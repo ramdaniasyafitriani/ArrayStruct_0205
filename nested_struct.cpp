@@ -20,7 +20,7 @@ int main()
     Mahasiswa mhs [2];
     for (int i=0; i < 2; i++)
     {
-        cout << "Mahasiswa ke-" << 1 + 1 << endl;
+        cout << "Mahasiswa ke-" << i + 1 << endl;
         cout << "Masukan nim = ";
         cin >> mhs[i].nim;
         cout << "Masukan nama= ";
